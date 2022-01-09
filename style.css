@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+nav{
+    padding: 10px 20px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+}
+ul li{
+    display: inline;
+    margin-left: 20px;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:aliceblue
+}
+header img{
+    width: 400px;
+    display: block;
+}
+main{
+    display: flex;
+    margin-top: 30px;
+}
+aside{
+    width: 30%;
+    padding: 10px;
+}
+iframe{
+    margin-top: 10px;
+}
+.art2{
+    margin-top: 30px;
+}
+.art2 p{
+    margin-top: 5px;
+}
+.art2 ul {
+    list-style:circle;
+}
+.art2 .list li{
+ display: block;
+}
+section
+{
+    width: 70%;
+    background-color: darkgrey;
+    /* display: flex; */
+}
+section .photo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+section .photo img{
+    width:40%;
+    margin: 10px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 20px;
+}
+footer .Social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer .Social li{
+    display: block;
+}
+footer .text{
+    width: 100%;
+    background-color: black;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+}
